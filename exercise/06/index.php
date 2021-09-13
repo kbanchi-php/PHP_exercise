@@ -49,10 +49,9 @@ class Car
     public function information()
     {
         return '車の車種:' . $this->getName()
-        . '、車体番号:' . $this->getNumber()
-        . '、カラー:' . $this->getColor() . 'です。';
+            . '、車体番号:' . $this->getNumber()
+            . '、カラー:' . $this->getColor() . 'です。';
     }
-
 }
 
 // 以下を実行した時にエラーがでないようにして下さい。

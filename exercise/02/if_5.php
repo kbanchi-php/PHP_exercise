@@ -20,7 +20,7 @@ if ($num == 2) {
 
 // 奇数の場合
 $count = 3;
-while($count < $num) {
+while ($count < $num) {
     if ($num % $count == 0) {
         echo '素数ではありません';
         return;
